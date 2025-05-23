@@ -1,7 +1,0 @@
-Remove-Item -Recurse -Force .\venv\Lib\site-packages\mediapipe\__pycache__\
-Remove-Item -Recurse -Force .\venv\Lib\site-packages\mediapipe\python\__pycache__\
-Remove-Item -Recurse -Force .\venv\Lib\site-packages\mediapipe\python\solutions\__pycache__\
-
-
-pip uninstall matplotlib -y
-pip install matplotlib
