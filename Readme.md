@@ -6,20 +6,20 @@ Este projeto usa **MediaPipe** e **OpenCV** para detectar gestos da mão em temp
 
 1. Clone o repositório:
 
-git clone https://github.com/PedroPiana/shutdown_gesture.git
-cd shutdown-gesture
+    git clone https://github.com/PedroPiana/shutdown_gesture.git
+    cd shutdown-gesture
 
 2. Crie um ambiente virtual:
 
-python -m venv venv
-venv\Scripts\activate  # No Windows
-source venv/bin/activate  # No Linux/macOS
+    python -m venv venv
+    venv\Scripts\activate  # No Windows
+    source venv/bin/activate  # No Linux/macOS
 
 
 3. Instale as dependências:
 
-pip install -r requirements.txt
+    pip install -r requirements.txt
 
 4. Rode o programa:
 
-python shutdown.py
+    python shutdown.py
